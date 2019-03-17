@@ -1,6 +1,13 @@
 package exercise1;
 
 public class ChildThread extends Thread{
+    // print in different threads
+
+    // print letters from a - z
+    // print letters from A - Z
+    // print numbers from 1 - 100 in main thread
+
+
     private char letter;
     public ChildThread(char letter){
         this.letter = letter;
